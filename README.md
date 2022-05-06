@@ -148,21 +148,16 @@ A detailed discussion about the performance of DQN + Adam and C51 trained on the
 - [Dopamine baselines and configs](https://github.com/google/dopamine), which I used extensively for comparing the performance of our implementations and for figuring various hyperparameters.
 
 
+## Related projects
 
-## References
-
-[^1]: [Machado, 2017. _Revisiting the Arcade Learning Environment..._](https://arxiv.org/abs/1709.06009)
-[^2]: [Mnih, 2015. _Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
-[^3]: [Bellemare, 2017. _A distributional perspective..._](http://proceedings.mlr.press/v70/bellemare17a.html)
-[^4]: [Hessel, 2017. _Combining Improvements in Deep RL_](https://arxiv.org/abs/1710.02298)
-[^5]: [Gogianu, 2017. _Spectral Normalisation..._](https://www.semanticscholar.org/paper/Spectral-Normalisation-for-Deep-Reinforcement-an-Gogianu-Berariu/cf04c05f69022f71b60c7b7252af94f11cad5ef1)
-[^6]: [Castro, 2018. _Dopamine: A Research Framework for Deep RL_](http://arxiv.org/abs/1812.06110)
-[^7]: [Vieillard, 2020. _Munchausen Reinforcement Learning_](https://arxiv.org/abs/2007.14430)
+- [Stable Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) -- agents for seven Atari games.
+- [Kai Arulkumaran](https://github.com/Kaixhin/) provides a number of ALE checkpoints together with his [Rainbow implementation](https://github.com/Kaixhin/Rainbow/releases).
+- Uber Research [Atari Model Zoo](https://github.com/uber-research/atari-model-zoo) -- large number agents trained with Dopamine and OpenAI Baselines. However the [availability of these agents](https://github.com/uber-research/atari-model-zoo/issues/7) is not clear at the moment.
 
 
-### Cite
+## Giving credit
 
-If you use these checkpoints in your research and published work, please consider citing our work
+If you use these checkpoints in your research and published work, please consider citing this project:
 
 ```
 @misc{gogianu2022agents,
@@ -172,4 +167,12 @@ If you use these checkpoints in your research and published work, please conside
   url    = {https://github.com/floringogianu/atari-agents},
 }
 ```
+
+[^1]: [Machado, 2017. _Revisiting the Arcade Learning Environment..._](https://arxiv.org/abs/1709.06009)
+[^2]: [Mnih, 2015. _Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
+[^3]: [Bellemare, 2017. _A distributional perspective..._](http://proceedings.mlr.press/v70/bellemare17a.html)
+[^4]: [Hessel, 2017. _Combining Improvements in Deep RL_](https://arxiv.org/abs/1710.02298)
+[^5]: [Gogianu, 2017. _Spectral Normalisation..._](https://www.semanticscholar.org/paper/Spectral-Normalisation-for-Deep-Reinforcement-an-Gogianu-Berariu/cf04c05f69022f71b60c7b7252af94f11cad5ef1)
+[^6]: [Castro, 2018. _Dopamine: A Research Framework for Deep RL_](http://arxiv.org/abs/1812.06110)
+[^7]: [Vieillard, 2020. _Munchausen Reinforcement Learning_](https://arxiv.org/abs/2007.14430)
 
