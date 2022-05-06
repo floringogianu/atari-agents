@@ -168,11 +168,11 @@ If you use these checkpoints in your research and published work, please conside
 }
 ```
 
-[^1]: [Machado, 2017. _Revisiting the Arcade Learning Environment..._](https://arxiv.org/abs/1709.06009)
-[^2]: [Mnih, 2015. _Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
-[^3]: [Bellemare, 2017. _A distributional perspective..._](http://proceedings.mlr.press/v70/bellemare17a.html)
-[^4]: [Hessel, 2017. _Combining Improvements in Deep RL_](https://arxiv.org/abs/1710.02298)
-[^5]: [Gogianu, 2017. _Spectral Normalisation..._](https://www.semanticscholar.org/paper/Spectral-Normalisation-for-Deep-Reinforcement-an-Gogianu-Berariu/cf04c05f69022f71b60c7b7252af94f11cad5ef1)
-[^6]: [Castro, 2018. _Dopamine: A Research Framework for Deep RL_](http://arxiv.org/abs/1812.06110)
-[^7]: [Vieillard, 2020. _Munchausen Reinforcement Learning_](https://arxiv.org/abs/2007.14430)
+[^1]: [Machado, et al. 2017, _Revisiting the Arcade Learning Environment..._](https://arxiv.org/abs/1709.06009)
+[^2]: [Mnih, et al. 2015, _Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236)
+[^3]: [Bellemare, et al. 2017, _A distributional perspective..._](http://proceedings.mlr.press/v70/bellemare17a.html)
+[^4]: [Hessel, et al. 2017, _Combining Improvements in Deep RL_](https://arxiv.org/abs/1710.02298)
+[^5]: [Gogianu, et al. 2021, _Spectral Normalisation..._](https://www.semanticscholar.org/paper/Spectral-Normalisation-for-Deep-Reinforcement-an-Gogianu-Berariu/cf04c05f69022f71b60c7b7252af94f11cad5ef1)
+[^6]: [Castro, et al. 2018, _Dopamine: A Research Framework for Deep RL_](http://arxiv.org/abs/1812.06110)
+[^7]: [Vieillard, et al. 2020, _Munchausen Reinforcement Learning_](https://arxiv.org/abs/2007.14430)
 
