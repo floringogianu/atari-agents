@@ -37,7 +37,7 @@ Agents have been trained using PyTorch and the models are stored as compressed [
 There are two common training and evaluation protocols encountered in the literature. We will call them `classic` and `modern` across this project:
 
 - `classic`: it originates from (Mnih, 2015)[^2] Nature paper and it mostly appears in DeepMind papers.
-- `modern`: it originates from (Machado, 2017)[^1] and a variation of it was adopted by Dopamine[^6]. Since then it appear more an more often.
+- `modern`: it originates from (Machado, 2017)[^1] and a variation of it was adopted by Dopamine[^6]. Since then it started to show more and more often.
 
 The main two differences between the two are the way stochasticity is induced in the environment and how the loss of a life is treated.
 
