@@ -1,5 +1,5 @@
 # Trained Atari Agents
-[Download models](https://share.bitdefender.com/s/qCF7jFxkgx2qJeT) |
+[Download models](https://console.cloud.google.com/storage/browser/bitdefender_ml_artifacts) |
 [Getting started](#how-to-use-it) |
 [What's included](#whats-included) |
 [Acknowledgements](#acknowledgements)
@@ -62,7 +62,19 @@ Right off-the bat you can notice that on the `classic` protocol there are only 2
 
 ### Installation
 
-[:arrow_double_down: Download :arrow_double_down:](https://share.bitdefender.com/s/qCF7jFxkgx2qJeT) the saved models.
+[:arrow_double_down: Download :arrow_double_down:](https://console.cloud.google.com/storage/browser/bitdefender_ml_artifacts) the saved models.
+
+Using `gsutil` you can download all the models from the command line:
+
+```shell
+gsutil -m cp -R gs://bitdefender_ml_artifacts/atari ./
+```
+
+or select certain checkpoints like this:
+
+```shell
+gsutil -m cp -R gs://bitdefender_ml_artifacts/atari/[ALGORITHM]/[GAME]/[SEED]/model_50000000.gz ./
+```
 
 Install the `conda` environment using `conda env create -f environment.yml`. If this fails for some reason the main requirements are:
 
